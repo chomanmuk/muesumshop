@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="vc01" id="BYZ-38-t0r" customClass="ViewController" customModule="muesumshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tgs-7K-ntI">
+                                <rect key="frame" x="20" y="101" width="560" height="399"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="c70-xi-o8D">
+                                        <rect key="frame" x="27" y="0.0" width="506" height="342"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S83-cp-jP7">
+                                        <rect key="frame" x="0.0" y="362" width="560" height="2"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fly-3K-xps">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="2"/>
+                                            </progressView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시스템 준비중 입니다..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1f-nP-EdE">
+                                        <rect key="frame" x="19" y="384" width="522" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="agY-aw-36K"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="S83-cp-jP7" secondAttribute="trailing" id="FhE-iA-dWl"/>
+                                    <constraint firstItem="L1f-nP-EdE" firstAttribute="leading" secondItem="tgs-7K-ntI" secondAttribute="leading" constant="19" id="YJR-pp-Uj4"/>
+                                    <constraint firstItem="S83-cp-jP7" firstAttribute="leading" secondItem="tgs-7K-ntI" secondAttribute="leading" constant="100" id="dZz-yY-Vu5"/>
+                                    <constraint firstItem="S83-cp-jP7" firstAttribute="leading" secondItem="tgs-7K-ntI" secondAttribute="leading" id="gbU-uT-U3m"/>
+                                    <constraint firstItem="c70-xi-o8D" firstAttribute="leading" secondItem="tgs-7K-ntI" secondAttribute="leading" constant="27" id="oMe-aH-gxh"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tgs-7K-ntI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Z2-nQ-h9t"/>
+                            <constraint firstItem="tgs-7K-ntI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="81" id="3t7-hU-tzg"/>
+                            <constraint firstItem="tgs-7K-ntI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hEV-vF-3l9"/>
+                            <constraint firstItem="tgs-7K-ntI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="twt-Hx-854"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="proBar" destination="Fly-3K-xps" id="BMs-Qw-QRx"/>
+                        <outlet property="probarLabel" destination="L1f-nP-EdE" id="9vH-nN-IGp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="283"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="07u-Vn-gLv">
+            <objects>
+                <viewController storyboardIdentifier="vc02" id="phB-Ao-l70" customClass="WebViewController" customModule="muesumshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xuo-TO-Wcx"/>
+                        <viewControllerLayoutGuide type="bottom" id="9oY-fY-fLy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y5v-9Q-7V1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0vN-4d-1l6">
+                                <rect key="frame" x="0.0" y="28" width="600" height="572"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8aF-3e-q85">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="2"/>
+                                    </progressView>
+                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-Nk-4J9">
+                                        <rect key="frame" x="0.0" y="2" width="600" height="570"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                    </webView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="0vN-4d-1l6" secondAttribute="bottom" constant="-2" id="1m9-MH-zq6"/>
+                            <constraint firstAttribute="bottom" secondItem="0vN-4d-1l6" secondAttribute="bottom" id="H42-GI-Hzh"/>
+                            <constraint firstItem="0vN-4d-1l6" firstAttribute="leading" secondItem="Y5v-9Q-7V1" secondAttribute="leading" id="NbM-Zc-U0g"/>
+                            <constraint firstItem="0vN-4d-1l6" firstAttribute="top" secondItem="Xuo-TO-Wcx" secondAttribute="bottom" constant="8" symbolic="YES" id="a2B-LQ-D1g"/>
+                            <constraint firstAttribute="trailing" secondItem="0vN-4d-1l6" secondAttribute="trailing" id="wqh-ve-xg5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="my" destination="HAJ-Nk-4J9" id="Ffz-PN-hu3"/>
+                        <outlet property="webpogress" destination="8aF-3e-q85" id="aIT-eb-0QX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nw5-XS-bWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="96" height="96"/>
+    </resources>
+</document>
