@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="283"/>
+            <point key="canvasLocation" x="527" y="275"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="07u-Vn-gLv">
@@ -80,39 +80,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0vN-4d-1l6">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FQf-RA-C9b">
                                 <rect key="frame" x="0.0" y="28" width="600" height="572"/>
                                 <subviews>
-                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8aF-3e-q85">
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KF4-hE-PMI">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="2"/>
                                     </progressView>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-Nk-4J9">
-                                        <rect key="frame" x="0.0" y="2" width="600" height="570"/>
+                                    <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X9T-ZV-lvs">
+                                        <rect key="frame" x="0.0" y="2" width="600" height="518"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                     </webView>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Vi-C3-Na0" propertyAccessControl="none">
+                                        <rect key="frame" x="0.0" y="520" width="600" height="52"/>
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <items>
+                                            <barButtonItem image="prev" width="50" id="3kv-c9-vqu">
+                                                <connections>
+                                                    <action selector="goBack" destination="X9T-ZV-lvs" id="acy-if-t3f"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="refresh" width="50" id="Fxi-ib-Jsy">
+                                                <connections>
+                                                    <action selector="reload" destination="X9T-ZV-lvs" id="Fzf-l7-kQv"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="next" width="50" id="0fF-eN-UeT">
+                                                <connections>
+                                                    <action selector="goForward" destination="X9T-ZV-lvs" id="AAF-p1-R2d"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="home" width="50" id="UWK-NK-Hke">
+                                                <connections>
+                                                    <action selector="HomeWebView:" destination="phB-Ao-l70" id="wFv-tc-AXR"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="login" width="50" id="NhW-oZ-GrD">
+                                                <connections>
+                                                    <action selector="LoginWebView:" destination="phB-Ao-l70" id="jmQ-rv-cMH"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </toolbar>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="0vN-4d-1l6" secondAttribute="bottom" constant="-2" id="1m9-MH-zq6"/>
-                            <constraint firstAttribute="bottom" secondItem="0vN-4d-1l6" secondAttribute="bottom" id="H42-GI-Hzh"/>
-                            <constraint firstItem="0vN-4d-1l6" firstAttribute="leading" secondItem="Y5v-9Q-7V1" secondAttribute="leading" id="NbM-Zc-U0g"/>
-                            <constraint firstItem="0vN-4d-1l6" firstAttribute="top" secondItem="Xuo-TO-Wcx" secondAttribute="bottom" constant="8" symbolic="YES" id="a2B-LQ-D1g"/>
-                            <constraint firstAttribute="trailing" secondItem="0vN-4d-1l6" secondAttribute="trailing" id="wqh-ve-xg5"/>
+                            <constraint firstItem="9oY-fY-fLy" firstAttribute="top" secondItem="FQf-RA-C9b" secondAttribute="bottom" id="B9Z-SN-wMa"/>
+                            <constraint firstItem="FQf-RA-C9b" firstAttribute="leading" secondItem="Y5v-9Q-7V1" secondAttribute="leading" id="MN2-4f-Y38"/>
+                            <constraint firstAttribute="trailing" secondItem="FQf-RA-C9b" secondAttribute="trailing" id="fCS-Ax-xV3"/>
+                            <constraint firstItem="FQf-RA-C9b" firstAttribute="top" secondItem="Xuo-TO-Wcx" secondAttribute="bottom" constant="8" symbolic="YES" id="tDA-DH-Pc1"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="my" destination="HAJ-Nk-4J9" id="Ffz-PN-hu3"/>
-                        <outlet property="webpogress" destination="8aF-3e-q85" id="aIT-eb-0QX"/>
+                        <outlet property="my" destination="X9T-ZV-lvs" id="EPF-nX-N0x"/>
+                        <outlet property="webpogress" destination="KF4-hE-PMI" id="urh-ik-5GD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nw5-XS-bWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="830" y="283"/>
+            <point key="canvasLocation" x="1136" y="275"/>
         </scene>
     </scenes>
     <resources>
+        <image name="home" width="24" height="24"/>
+        <image name="login" width="24" height="24"/>
         <image name="logo" width="96" height="96"/>
+        <image name="next" width="24" height="24"/>
+        <image name="prev" width="24" height="24"/>
+        <image name="refresh" width="24" height="24"/>
     </resources>
 </document>

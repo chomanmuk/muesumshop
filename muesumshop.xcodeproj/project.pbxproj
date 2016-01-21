@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5952C29455AB5BEEBC6A9F0A /* Pods_muesumshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0201EF2A9387E9BC08D33319 /* Pods_muesumshopTests.framework */; };
 		7C187C2E1C3EAA0C00DE9F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187C2D1C3EAA0C00DE9F8B /* AppDelegate.swift */; };
 		7C187C301C3EAA0C00DE9F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187C2F1C3EAA0C00DE9F8B /* ViewController.swift */; };
 		7C187C331C3EAA0C00DE9F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C187C311C3EAA0C00DE9F8B /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 		7C187C461C3EAA0D00DE9F8B /* muesumshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187C451C3EAA0D00DE9F8B /* muesumshopTests.swift */; };
 		7C187C511C3EAA0D00DE9F8B /* muesumshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187C501C3EAA0D00DE9F8B /* muesumshopUITests.swift */; };
 		7C187C5F1C3EC1A100DE9F8B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187C5E1C3EC1A100DE9F8B /* WebViewController.swift */; };
+		7CCCB4A01C4997DE00ABB28F /* InternetCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCB49F1C4997DE00ABB28F /* InternetCheck.swift */; };
+		84C9F8F790185FCE18B56907 /* Pods_muesumshopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8878F2333FB5E92C2F5E0A74 /* Pods_muesumshopUITests.framework */; };
+		D1421691751CFF16BEE17815 /* Pods_muesumshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D5F7D2A08FC6A0CB2CAD1 /* Pods_muesumshop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0201EF2A9387E9BC08D33319 /* Pods_muesumshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muesumshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1561EB55FA623EFA5421F2A0 /* Pods-muesumshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshop/Pods-muesumshop.debug.xcconfig"; sourceTree = "<group>"; };
+		513A972F85E6376FD5671484 /* Pods-muesumshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshopUITests/Pods-muesumshopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C187C2A1C3EAA0C00DE9F8B /* muesumshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muesumshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C187C2D1C3EAA0C00DE9F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C187C2F1C3EAA0C00DE9F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		7C187C501C3EAA0D00DE9F8B /* muesumshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muesumshopUITests.swift; sourceTree = "<group>"; };
 		7C187C521C3EAA0D00DE9F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C187C5E1C3EC1A100DE9F8B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7CCCB49F1C4997DE00ABB28F /* InternetCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetCheck.swift; sourceTree = "<group>"; };
+		8878F2333FB5E92C2F5E0A74 /* Pods_muesumshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muesumshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBB3577ED591AC89B9E4949 /* Pods-muesumshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshopTests/Pods-muesumshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68DC7B32BE7F433CBCA9233 /* Pods-muesumshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshop/Pods-muesumshop.release.xcconfig"; sourceTree = "<group>"; };
+		D60D5F7D2A08FC6A0CB2CAD1 /* Pods_muesumshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muesumshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D59E566D90559C2824A067 /* Pods-muesumshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshopTests/Pods-muesumshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA105EDE5FA30E310470A835 /* Pods-muesumshopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muesumshopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muesumshopUITests/Pods-muesumshopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1421691751CFF16BEE17815 /* Pods_muesumshop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5952C29455AB5BEEBC6A9F0A /* Pods_muesumshopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C9F8F790185FCE18B56907 /* Pods_muesumshopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73422EEED63DB9AC9D5E3E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1561EB55FA623EFA5421F2A0 /* Pods-muesumshop.debug.xcconfig */,
+				B68DC7B32BE7F433CBCA9233 /* Pods-muesumshop.release.xcconfig */,
+				9BBB3577ED591AC89B9E4949 /* Pods-muesumshopTests.debug.xcconfig */,
+				E2D59E566D90559C2824A067 /* Pods-muesumshopTests.release.xcconfig */,
+				EA105EDE5FA30E310470A835 /* Pods-muesumshopUITests.debug.xcconfig */,
+				513A972F85E6376FD5671484 /* Pods-muesumshopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C187C211C3EAA0C00DE9F8B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				7C187C441C3EAA0D00DE9F8B /* muesumshopTests */,
 				7C187C4F1C3EAA0D00DE9F8B /* muesumshopUITests */,
 				7C187C2B1C3EAA0C00DE9F8B /* Products */,
+				73422EEED63DB9AC9D5E3E13 /* Pods */,
+				D0C576B3E43315F3FE9AF0BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,7 @@
 			children = (
 				7C187C2D1C3EAA0C00DE9F8B /* AppDelegate.swift */,
 				7C187C2F1C3EAA0C00DE9F8B /* ViewController.swift */,
+				7CCCB49F1C4997DE00ABB28F /* InternetCheck.swift */,
 				7C187C311C3EAA0C00DE9F8B /* Main.storyboard */,
 				7C187C5E1C3EC1A100DE9F8B /* WebViewController.swift */,
 				7C187C371C3EAA0C00DE9F8B /* Assets.xcassets */,
@@ -131,6 +164,16 @@
 			path = muesumshopUITests;
 			sourceTree = "<group>";
 		};
+		D0C576B3E43315F3FE9AF0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60D5F7D2A08FC6A0CB2CAD1 /* Pods_muesumshop.framework */,
+				0201EF2A9387E9BC08D33319 /* Pods_muesumshopTests.framework */,
+				8878F2333FB5E92C2F5E0A74 /* Pods_muesumshopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C187C551C3EAA0D00DE9F8B /* Build configuration list for PBXNativeTarget "muesumshop" */;
 			buildPhases = (
+				B773A78B39CA10C8040286F9 /* Check Pods Manifest.lock */,
 				7C187C261C3EAA0C00DE9F8B /* Sources */,
 				7C187C271C3EAA0C00DE9F8B /* Frameworks */,
 				7C187C281C3EAA0C00DE9F8B /* Resources */,
+				660027C2A44CEB0954302B04 /* Embed Pods Frameworks */,
+				C46FA658D106A70C3E9F44EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C187C581C3EAA0D00DE9F8B /* Build configuration list for PBXNativeTarget "muesumshopTests" */;
 			buildPhases = (
+				CB93FCE8B8B2AE79CFB0D0D1 /* Check Pods Manifest.lock */,
 				7C187C3D1C3EAA0D00DE9F8B /* Sources */,
 				7C187C3E1C3EAA0D00DE9F8B /* Frameworks */,
 				7C187C3F1C3EAA0D00DE9F8B /* Resources */,
+				B5BB96EED46B85D5FA4F5DC9 /* Embed Pods Frameworks */,
+				F750169D42E31E74152CB0FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C187C5B1C3EAA0D00DE9F8B /* Build configuration list for PBXNativeTarget "muesumshopUITests" */;
 			buildPhases = (
+				EB732E4C28364C2ECF527A83 /* Check Pods Manifest.lock */,
 				7C187C481C3EAA0D00DE9F8B /* Sources */,
 				7C187C491C3EAA0D00DE9F8B /* Frameworks */,
 				7C187C4A1C3EAA0D00DE9F8B /* Resources */,
+				28D4E046168C0AD24D326DF7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,12 +309,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28D4E046168C0AD24D326DF7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muesumshopUITests/Pods-muesumshopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660027C2A44CEB0954302B04 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muesumshop/Pods-muesumshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5BB96EED46B85D5FA4F5DC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muesumshopTests/Pods-muesumshopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B773A78B39CA10C8040286F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C46FA658D106A70C3E9F44EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muesumshop/Pods-muesumshop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB93FCE8B8B2AE79CFB0D0D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB732E4C28364C2ECF527A83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F750169D42E31E74152CB0FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muesumshopTests/Pods-muesumshopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C187C261C3EAA0C00DE9F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C187C301C3EAA0C00DE9F8B /* ViewController.swift in Sources */,
+				7CCCB4A01C4997DE00ABB28F /* InternetCheck.swift in Sources */,
 				7C187C2E1C3EAA0C00DE9F8B /* AppDelegate.swift in Sources */,
 				7C187C361C3EAA0C00DE9F8B /* muesumshop.xcdatamodeld in Sources */,
 				7C187C5F1C3EC1A100DE9F8B /* WebViewController.swift in Sources */,
@@ -408,6 +583,7 @@
 		};
 		7C187C561C3EAA0D00DE9F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1561EB55FA623EFA5421F2A0 /* Pods-muesumshop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -422,6 +598,7 @@
 		};
 		7C187C571C3EAA0D00DE9F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68DC7B32BE7F433CBCA9233 /* Pods-muesumshop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -436,6 +613,7 @@
 		};
 		7C187C591C3EAA0D00DE9F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBB3577ED591AC89B9E4949 /* Pods-muesumshopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = muesumshopTests/Info.plist;
@@ -448,6 +626,7 @@
 		};
 		7C187C5A1C3EAA0D00DE9F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D59E566D90559C2824A067 /* Pods-muesumshopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = muesumshopTests/Info.plist;
@@ -460,6 +639,7 @@
 		};
 		7C187C5C1C3EAA0D00DE9F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA105EDE5FA30E310470A835 /* Pods-muesumshopUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = muesumshopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +652,7 @@
 		};
 		7C187C5D1C3EAA0D00DE9F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513A972F85E6376FD5671484 /* Pods-muesumshopUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = muesumshopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +682,7 @@
 				7C187C571C3EAA0D00DE9F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C187C581C3EAA0D00DE9F8B /* Build configuration list for PBXNativeTarget "muesumshopTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +691,7 @@
 				7C187C5A1C3EAA0D00DE9F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C187C5B1C3EAA0D00DE9F8B /* Build configuration list for PBXNativeTarget "muesumshopUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +700,7 @@
 				7C187C5D1C3EAA0D00DE9F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
