@@ -78,7 +78,7 @@ class ViewController: UIViewController {
     func stopApp(){
         timer.invalidate();
         print("에러로 인한 타이머 종료")
-        let connectAlert = UIAlertController(title: "메세지", message: "네트웍이 불안정하여 서버에 연결할 수 없습니다. 다시 연결 하시겠습니까?", preferredStyle: .Alert)
+        let connectAlert = UIAlertController(title: "Alert", message: "You can not connect to the server. To try again , press the OK", preferredStyle: .Alert)
         connectAlert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action: UIAlertAction!) in
             print("다시 시도");
             self.loadCnt = 0.0
